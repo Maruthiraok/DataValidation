@@ -1,0 +1,9 @@
+public class Maruthi{
+
+ public static void main(args[]){
+
+   System.out.println("Hellow Master");
+
+}
+
+}
