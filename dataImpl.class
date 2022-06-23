@@ -1,0 +1,18 @@
+package com.spring.controler;
+
+public class ControllerMain {
+		
+	private static ControllerMain instance;
+	
+	private ControllerMain() {
+		
+	}	
+	public static ControllerMain getInstance() {
+		
+		if(instance==null) {
+			instance =new ControllerMain();
+		}
+		return instance;
+	}
+	
+}
